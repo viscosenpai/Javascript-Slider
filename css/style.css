@@ -1,0 +1,22 @@
+/*-----
+スライダー
+-----*/
+#slider {
+  height: 200px;
+  overflow: hidden;
+  width: 500px;
+  position: relative;
+}
+
+#slideSet {
+  position: absolute;
+  transition: left 0.5s linear;
+}
+
+.slide {
+  box-sizing: border-box;
+  border: 1px solid #f00;
+  float: left;
+  height: 200px;
+  width: 500px;
+}
